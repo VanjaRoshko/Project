@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sports Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="image-removebg-preview (1).png" type="Image/png">
+</head>
+  <body>
+    <header>
+      <header uk-scrollspy="uk-animation-slide-top" class="header"> 
+        <nav class="navbar navbar-expand-lg navbar-default"> 
+         <div class="container-fluid"> 
+          <img id="logoimg" class="logoimg" src="image-removebg-preview.png" alt=""></a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> 
+           <span class="navbar-toggler-icon"></span> 
+          </button> 
+          <div class="collapse navbar-collapse justify-content-end" id="navbar"> 
+           <ul class="navbar-nav mr-auto"> 
+            <li class="nav-item"> 
+             <a class="nav-link" href="Index.html">Новинки</a> 
+            </li> 
+            <li class="nav-item"> 
+             <a class="nav-link" href="table.html">Одяг</a> 
+            </li> 
+            <li class="nav-item"> 
+             <a href="playoff.html" class="nav-link">Взуття</a> 
+            </li> 
+            <li class="nav-item"> 
+             <button class="nav-button" data-bs-toggle="modal" data-bs-target="#signUpModal">Увійти</button> 
+            </li> 
+           </ul> 
+          </div> 
+        </nav>
+        <div class="modal sing"  id="signUpModal" > 
+          <div class="modal-dialog  "> 
+           <div class="modal-content ">  
+            <div class="signUpForm"> 
+             <form action=""> 
+              <div class="modal-head"> 
+               <div class="empty"></div> 
+               <h1 class="SignUpTitle"> Увійти</h1> 
+               <button class="btn-close" data-bs-dismiss="modal"></button> 
+              </div> 
+              <div class="form-floating"> 
+               <input type="text" name="firstName" id="firstName" placeholder="First Name" 
+                class="form-control" required> 
+               <label for="firstName" class="form-label">First Name</label> 
+              </div> 
+              <div class="form-floating"> 
+               <input type="text" name="lastName" id="lastName" placeholder="Last Name" class="form-control" 
+               required> 
+               <label for="lastName" class="form-label">Last Name</label> 
+              </div> 
+              <div class="form-floating"> 
+               <input type="email" name="email" id="email" placeholder="Email" class="form-control" 
+                required> 
+               <label for="email" class="form-label">Email</label> 
+              </div> 
+              <div class="form-floating"> 
+               <input type="password" name="password" id="password" 
+                placeholder="Password (Minimum 8 characters)" minlength="8" class="form-control" required> 
+               <label for="password" class="form-label">Password</label> 
+              </div> 
+              <div class="form-floating"> 
+               <input type="password" name="passwordConfirmation" id="passwordConfirmation" 
+                placeholder="Confirm Password" class="form-control" required> 
+               <label for="passwordConfirmation" class="form-label">Confirm Password</label> 
+              </div> 
+              <button type="submit" class="form-button">Submit</button> 
+             </form> 
+            </div> 
+           </div> 
+             </div> 
+            </div>
+    </header>
+    <div class="conteiner-fluid">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <span class="zaholovok"><h1>Новинки</h1></span>
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+              <div class="col-md-3 col-12">
+                  <div class="card">
+                      <img src="0e4b52015681b05160739bb61235b7f2.jpg" class="card-img-top" alt="Product 1">
+                      <div class="card-body">
+                          <h5 class="card-title">Жіночі кросівки Fila</h5>
+                          <p class="card-text">Взуття для бігу</p>
+                          <p class="card-price"><strong>2800 грн</strong> &nbsp;<s>3500 грн</s></p>
+                          <a href="#" class="btn btn-primary">Купити</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-12 d-none d-md-block">
+                  <div class="card">
+                      <img src="d58c066819ff2072beada106521a98b2.jpg" class="card-img-top" alt="Product 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Бутси Nike</h5>
+                          <p class="card-text">Футбольні бутси Nike Merkurial</p>
+                          <p class="card-price"><strong>3400 грн</strong> &nbsp;<s>3950 грн</s></p>
+                          <a href="#" class="btn btn-primary">Купити</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-12 d-none d-md-block">
+                  <div class="card">
+                      <img src="bb4cc5f6f4b7c8a7d3a6d611cce598c3.jpg" class="card-img-top" alt="Product 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Кросівки Adidas</h5>
+                          <p class="card-text">Взуття для прогулянки</p>
+                          <p class="card-price"><strong>2600 грн</strong> &nbsp;<s>3120 грн</s></p>
+                          <a href="#" class="btn btn-primary">Купити</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12">
+                <div class="card">
+                    <img src="a171186e48e833f46b1cc888a64e38be.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Баскетбольна форма</h5>
+                        <p class="card-text">Форма команд NBA</p>
+                        <p class="card-price"><strong>1800 грн</strong> &nbsp;<s>2400 грн</s></p>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 d-none d-md-block">
+                <div class="card">
+                    <img src="830dc5ab6a84c26abbb49a3d901b5b2d.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                    <h5 class="card-title">Шорти Nike</h5>
+                    <p class="card-text">Спортивні шорти</p>
+                    <p class="card-price"><strong>950 грн</strong> &nbsp;<s>1320 грн</s></p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 d-none d-md-block">
+                <div class="card">
+                    <img src="ba7f8d6d4db88c3f51482b9cb6bf269d.jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Термо шорти</h5>
+                        <p class="card-text">Термо шорти Björn Borg Sports</p>
+                        <p class="card-price"><strong>840 грн</strong> &nbsp;<s>920 грн</s></p>
+                        <a href="#" class="btn btn-primary">Купити</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row justify-content-center">
+          <div class="col-md-3 col-12">
+              <div class="card">
+                  <img src="6deb46e62a344b830d357a19e288e28a.jpg" class="card-img-top" alt="Product 7">
+                  <div class="card-body">
+                      <h5 class="card-title">Спортивний костюм</h5>
+                      <p class="card-text">Спортивний костюм "Реал Мадрид"</p>
+                      <p class="card-price"><strong>1500 грн</strong> &nbsp;<s>1920 грн</s></p>
+                      <a href="#" class="btn btn-primary">Купити</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-12 d-none d-md-block">
+              <div class="card">
+                  <img src="f1b4bf3f144f387f586ccce06aa92fd0.jpg" class="card-img-top" alt="Product 8">
+                  <div class="card-body">
+                    <h5 class="card-title">Спортивний костюм</h5>
+                    <p class="card-text">Спортивний костюм "Ювентус"</p>
+                    <p class="card-price"><strong>1600 грн</strong> &nbsp;<s>1940 грн</s></p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-12 d-none d-md-block">
+              <div class="card">
+                  <img src="8a6d1806fe413b6ffe613c313c1fe47f.jpg" class="card-img-top" alt="Product 9">
+                  <div class="card-body">
+                    <h5 class="card-title">Спортивний костюм</h5>
+                    <p class="card-text">Спортивний костюм "Барселона"</p>
+                    <p class="card-price"><strong>1480 грн</strong> &nbsp;<s>1820 грн</s></p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>  
+    </div>
+
+    
+    <footer class="footer">
+    <nav>
+      <a href="Index.html">Новинки</a>
+      <a href="table.html">Одяг</a>
+      <a href="playoff.html">Взуття</a>
+    </nav>
+    <div class="logo">
+      <a href="#logoimg"><img class="logoimgfooter" src="image-removebg-preview.png" alt=""></a>
+    </div>
+    <div class="social">
+      <p class="autor">Соціальні мережі автора</p><br>
+      <a href="https://t.me/VanjaRoshko"><img class="sociallogo" src="telegram.png" alt=""></a>
+      <a href="mailto:roshko.ivan@student.uzhnu.edu.ua"><img class="sociallogo" src="Gmail.png" alt=""></a>
+      <a href="https://www.instagram.com/vanjaroshko7.9.10/"><img class="sociallogo" src="Instagram.png" alt=""></a>
+      <a href="https://www.facebook.com/profile.php?id=100048517881216"><img class="sociallogo" src="Facebook.png" alt=""></a>
+      <a href="tel:+380968332098"><img class="sociallogo" src="Phone.png" alt=""></a>
+    </div>
+     </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html
